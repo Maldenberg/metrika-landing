@@ -2,6 +2,16 @@ body {
     font-family: "Manrope", sans-serif;
     font-weight: 400;
     color: #121212;
+    background-color: rgb(208, 208, 208);
+}
+.page {
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 125px;
+    padding-right: 125px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
 }
 .general-title {
     margin-bottom: 30px;
@@ -19,7 +29,7 @@ body {
     width: 1150px;
     background-image: url(../resources/image-site.jpg);
     background-repeat: no-repeat;
-    margin-bottom: 190px;
+    margin-bottom: 150px;
 }
 .general-image-text {
     position: absolute;
@@ -64,6 +74,45 @@ body {
     gap: 10px;
 }
 
-
-
+.services-btn-block {
+    margin-bottom: 150px;
+}
+.project img{
+    max-width: 1150px;
+    max-height: 450px;
+    margin-bottom: 15px;
+}
+.project h3{
+    font-size: 30px;
+    line-height: 50px;
+    color: #121212;
+    margin-bottom: 15px;
+    letter-spacing: -0.03em;
+}
+.project a{
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    font-size: 20px;
+    line-height: 27.32px;
+    text-decoration: none;
+    margin-bottom: 90px;
+}
+.project-link{
+    margin-bottom: 90px;
+}
+.allprojects-btn{
+    margin-bottom: 150px;
+}
+.projects-btn{
+    display: block;
+    text-align: center;
+    border: 2px solid #AD1818;
+    max-width: 1150px;
+    font-size: 30px;
+    padding: 56px 0;
+}
+.projects-btn:hover{
+    background-color: #AD1818;
+    color: #FFFFFF;
+}
 
